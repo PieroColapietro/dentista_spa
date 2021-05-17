@@ -1,0 +1,193 @@
+ 
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+    --maincolor: #3065b5;
+    --sec-color: #fff;
+    --accent: #3eb8d7;
+    --tr-color: #0392ce;
+    --textsec: rgb(109, 105, 105);
+  }
+  
+  .img-header{
+    background-image: url(/img/header.jpg);
+    background-size:cover;
+  }
+  
+  .nav-custom{
+    color: var(--sec-color);
+    background-color: var(--maincolor);
+    position: fixed top;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+  }
+
+  .he-li {
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+
+  .he-li:hover {
+    color: rgb(148, 143, 143);
+  }
+
+  a {
+    color: var(--sec-color)
+  }
+
+  .brand {
+    margin-left: 140px;
+    margin-bottom: -10px;
+  }
+
+  .slogan {
+    color: var(--sec-color);
+    height: 600px;
+    font-size: 50px;
+    padding-top:180px;
+  }
+
+  .slogan-text{
+    font-size: 50px;
+  }
+
+
+  .icon{
+      color: var(--accent);
+  }
+
+  .middle {
+      color: var(--textsec);
+  }
+
+  .card1{
+      background-color: var(--maincolor);
+  }
+  .card2{
+      background-color:  var(--accent);
+  }
+  .card3{
+      background-color: var(--tr-color);
+  }
+
+  .card-text {
+    font-size: 15px;
+    color: white;
+  }
+
+  .review {
+    background-image: url(/img/dentista-lecce-studio-dentistico-1.jpg);
+  }
+
+  .star{
+    width: 50%;
+  }
+
+  .staff-card {
+    border:none;
+    background-color: var(--maincolor);
+    color:white;
+    -webkit-box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51); 
+    box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51);
+  }
+
+  .img-staff{
+    -webkit-box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51); 
+    box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51);
+  }
+
+  .contacts-item {
+    float: left;
+  }
+
+  .card-service {
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+    border-radius: 20px;
+  }
+
+  .title-serv {
+    color: var(--maincolor);
+  }
+
+  .btn-serv {
+    color: var(--sec-color);
+    align-self: center;
+    background-color: var(--accent);
+  }
+
+  .btn-serv:hover {
+    color: var(--sec-color);
+    align-self: center;
+    background-color: var(--textsec);
+  }
+
+  @media screen and (max-width: 853px)  {
+  
+    #ghost-nav {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1220px)  {
+  
+  #item-nav {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 575px)  {
+  
+  .middle {
+    margin-left:180px !important;
+  }
+}
+
+@media screen and (max-width: 480px)  {
+  
+  .middle {
+    margin-left:80px !important;
+  }
+}
+
+
+@media screen and (max-width: 995px)  {
+  
+  .card-header {
+    display: contents;
+  }
+  .card-rew{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 350px)  {
+
+  .acc-fo {
+    margin-right: 7px;
+  }
+  .brand , .slogan-text {
+    margin-left: 50px;
+  }
+  .card-service {
+    margin-left: -0ppx !important;
+  }
+}
+
+@media screen and (max-width: 400px)  {
+  .staff-card{
+    margin-left: 0px !important;
+    padding-left: -15px !important;
+}
+
+}
+
+.card-rew {
+  background-color: rgba(128, 128, 128, 0.459);
+  border: none;
+  float:left;
+  border-radius: 20px;
+}
