@@ -12,7 +12,7 @@
                 <h5>{{ data.description }}</h5>
               </div>
               <div class="card-text">
-                <p class="fs-5">Prezzo: <button class="btn btn-serv mt-3">Vedi dettaglio</button> </p>
+                <p> Prezzo: <button @click="$emit('component' , 'Detail')" class="inline-flex justify-center py-2 px-4 btn btn-form" aria-current="page">Vedi dettaglio</button> </p>
               </div>
             </div>
           </div>

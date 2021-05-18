@@ -1,13 +1,13 @@
 {
     "private": true,
     "scripts": {
-        "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "dev": "npm run development"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.3.1",
@@ -17,6 +17,7 @@
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
+        "nodemon": "^2.0.7",
         "postcss": "^8.1.14",
         "postcss-import": "^14.0.1",
         "tailwindcss": "^2.0.1",
@@ -25,6 +26,14 @@
     },
     "dependencies": {
         "@popperjs/core": "^2.9.2",
-        "bootstrap": "^5.0.0-beta3"
+        "body-parser": "^1.19.0",
+        "bootstrap": "^5.0.0-beta3",
+        "cors": "^2.8.5",
+        "dotenv": "^9.0.2",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.9",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.6.0",
+        "nodemailer-express-handlebars": "^4.0.0"
     }
 }

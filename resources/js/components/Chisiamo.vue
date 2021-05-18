@@ -2,7 +2,7 @@
 <div class="container mt-5">
     <div class="row mt-5">
         <div class="col-12 mt-5">
-<p class="fs-1 text-primary text-center my-5">Il nostro <b>Staff</b></p>
+<p class="fs-1 text-main text-center my-5">Il nostro <b>Staff</b></p>
         </div>
     </div>
 </div>

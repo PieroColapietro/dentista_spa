@@ -11,6 +11,15 @@
     --tr-color: #0392ce;
     --textsec: rgb(109, 105, 105);
   }
+
+  .btn-form{
+    background-color: var(--maincolor);
+    color:white !important;
+  }
+
+  .text-main{
+    color: var(--maincolor);
+  }
   
   .img-header{
     background-image: url(/img/header.jpg);
@@ -28,6 +37,7 @@
   .he-li {
     text-decoration: none;
     transition-duration: 0.4s;
+    color:white;
   }
 
   .he-li:hover {
@@ -79,22 +89,13 @@
   }
 
   .review {
-    background-image: url(/img/dentista-lecce-studio-dentistico-1.jpg);
-  }
-
-  .star{
-    width: 50%;
+    background-image: url(/img/img3.jpg);
   }
 
   .staff-card {
     border:none;
     background-color: var(--maincolor);
     color:white;
-    -webkit-box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51); 
-    box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51);
-  }
-
-  .img-staff{
     -webkit-box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51); 
     box-shadow: -14px 22px 48px 2px rgba(0,0,0,0.51);
   }

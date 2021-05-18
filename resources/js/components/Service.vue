@@ -2,7 +2,7 @@
   <div class="container mt-5">
     <div class="row mt-5">
       <div class="col-12 mt-5">
-        <p class="fs-1 text-primary text-center mt-5 mb-5">
+        <p class="fs-1 text-main text-center mt-5 mb-5">
           I nostri <b>Servizi</b>
         </p>
       </div>

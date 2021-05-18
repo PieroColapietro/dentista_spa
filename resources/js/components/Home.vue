@@ -1,6 +1,7 @@
 <template>
     <Navbar @component="selectedComponent = $event" />
     <component :is="selectedComponent" />
+    <Footer/>
 </template>
 
 <script>

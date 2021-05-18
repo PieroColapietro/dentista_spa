@@ -14841,6 +14841,34 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=script&lang=js":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=script&lang=js ***!
+  \************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=script&lang=js":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=script&lang=js ***!
+  \************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Home.vue?vue&type=script&lang=js":
 /*!**********************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Home.vue?vue&type=script&lang=js ***!
@@ -15000,18 +15028,13 @@ var _hoisted_8 = {
 var _hoisted_9 = {
   "class": "card-text"
 };
-
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_10 = {
   "class": "card-text"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "fs-5"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Prezzo: "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
-  "class": "btn btn-serv mt-3"
-}, "Vedi dettaglio")])], -1
-/* HOISTED */
-);
+};
 
-var _hoisted_11 = {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Prezzo: ");
+
+var _hoisted_12 = {
   "class": "col-md-3 my-5"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -15019,7 +15042,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.data.description), 1
   /* TEXT */
-  )]), _hoisted_10])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    onClick: _cache[1] || (_cache[1] = function ($event) {
+      return _ctx.$emit('component', 'Detail');
+    }),
+    "class": "inline-flex justify-center py-2 px-4 btn btn-form",
+    "aria-current": "page"
+  }, "Vedi dettaglio")])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
     src: $props.data.img,
     "class": "img-fluid rounded img-staff",
     style: {
@@ -15115,7 +15144,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-12 mt-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "fs-1 text-primary text-center my-5"
+  "class": "fs-1 text-main text-center my-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Il nostro "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("b", null, "Staff")])])])], -1
 /* HOISTED */
 );
@@ -15171,118 +15200,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mt-5\"><div class=\"row mt-5\"><div class=\"col-12 mt-5\"><p class=\"fs-1 text-primary text-center mt-5\"> Ti servono <b>Informazioni?</b></p><p class=\"fs-4 text-primary text-center\"> Contattaci tramite questo apposito form </p></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mt-5\"><div class=\"row mt-5\"><div class=\"col-12 mt-5\"><p class=\"fs-1 text-main text-center mt-5\"> Ti servono <b>Informazioni?</b></p><p class=\"fs-4 text-main text-center\"> Contattaci tramite questo apposito form </p></div></div></div>", 1);
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_2 = {
   "class": "col-12 col-md-10 offset-md-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+var _hoisted_3 = {
   "class": "md:grid md:grid-cols-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+var _hoisted_4 = {
   "class": "mt-5 md:mt-0 md:col-span-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
-  action: "#",
-  method: "POST"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+var _hoisted_5 = {
   "class": "overflow-hidden sm:rounded-md"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "px-4 py-5 bg-white sm:p-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "grid grid-cols-6 gap-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "first_name",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Nome"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "first_name",
-  id: "first_name",
-  autocomplete: "given-name",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "last_name",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Cognome"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "last_name",
-  id: "last_name",
-  autocomplete: "family-name",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "email_address",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Indirizzo Email"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "email_address",
-  id: "email_address",
-  autocomplete: "email",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "country",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Stato / Regione"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
-  id: "country",
-  name: "country",
-  autocomplete: "country",
-  "class": "mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Italia"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "United States"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Canada"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Mexico")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "street_address",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Chiedi qui le info che ti occorrono (preventivi,info sui tempi,info sui servizi)"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "street_address",
-  id: "street_address",
-  autocomplete: "street-address",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-6 lg:col-span-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "city",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Città"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "city",
-  id: "city",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-3 lg:col-span-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "state",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "Stato / Provincia"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "state",
-  id: "state",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-span-6 sm:col-span-3 lg:col-span-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "postal_code",
-  "class": "block text-sm font-medium text-primary fs-6"
-}, "ZIP / Codice Postale"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text",
-  name: "postal_code",
-  id: "postal_code",
-  autocomplete: "postal-code",
-  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "px-4 py-3 bg-gray-50 text-right sm:px-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
-  type: "submit",
-  "class": "inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-primary bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-}, " Save ")])])])])])], -1
-/* HOISTED */
-);
+};
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-4 py-5 bg-white sm:p-6\"><div class=\"grid grid-cols-6 gap-6\"><div class=\"col-span-6 sm:col-span-3\"><label for=\"name\" class=\"block text-sm font-medium text-main fs-6\">Nome</label><input type=\"text\" name=\"name\" id=\"name\" autocomplete=\"given-name\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6 sm:col-span-3\"><label for=\"last_name\" class=\"block text-sm font-medium text-main fs-6\">Cognome</label><input type=\"text\" name=\"last_name\" id=\"last_name\" autocomplete=\"family-name\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6 sm:col-span-4\"><label for=\"email\" class=\"block text-sm font-medium text-main fs-6\">Indirizzo Email</label><input type=\"text\" name=\"email\" id=\"email\" autocomplete=\"email\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6\"><label for=\"street\" class=\"block text-sm font-medium text-main fs-6\">Chiedi qui le info che ti occorrono (preventivi,info sui tempi,info sui servizi)</label><input type=\"text\" name=\"street\" id=\"street\" autocomplete=\"street-address\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6 sm:col-span-6 lg:col-span-2\"><label for=\"city\" class=\"block text-sm font-medium text-main fs-6\">Città</label><input type=\"text\" name=\"city\" id=\"city\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6 sm:col-span-3 lg:col-span-2\"><label for=\"state\" class=\"block text-sm font-medium text-main fs-6\">Stato / Provincia</label><input type=\"text\" name=\"state\" id=\"state\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div><div class=\"col-span-6 sm:col-span-3 lg:col-span-2\"><label for=\"postal_code\" class=\"block text-sm font-medium text-main fs-6\">ZIP / Codice Postale</label><input type=\"text\" name=\"postal_code\" id=\"postal_code\" autocomplete=\"postal-code\" class=\"mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md\"></div></div></div>", 1);
+
+var _hoisted_7 = {
+  "class": "px-4 py-3 bg-gray-50 text-right sm:px-6"
+};
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "hidden sm:block",
   "aria-hidden": "true"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
@@ -15294,9 +15233,73 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, _hoisted_2, _hoisted_3], 64
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
+    id: "contatti-form",
+    onSubmit: _cache[2] || (_cache[2] = function () {
+      return _ctx.checkForm && _ctx.checkForm.apply(_ctx, arguments);
+    }),
+    action: "",
+    method: "",
+    "class": "contatti-form"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    type: "submit",
+    "class": "submit inline-flex justify-center py-2 px-4 btn btn-form",
+    value: "Submit",
+    onClick: _cache[1] || (_cache[1] = function () {
+      return _ctx.submit && _ctx.submit.apply(_ctx, arguments);
+    })
+  }, " Invia ")])])], 32
+  /* HYDRATE_EVENTS */
+  )])])]), _hoisted_8], 64
   /* STABLE_FRAGMENT */
   );
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "container"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("q", null, "ciao", -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374 ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer class=\"card1 text-white text-center text-lg-start mt-5\"><!-- Grid container --><div class=\"container p-4 mt-5\"><!--Grid row--><div class=\"row\"><!--Grid column--><div class=\"col-lg-6 col-md-12 mb-4 mb-md-0\"><h5 class=\"mb-4\">Aiuto e contatti</h5><ul class=\"list-unstyled mb-0\"><li><p class=\"text-white\"><i class=\"fas fa-map-marker-alt me-2\"></i> Viale Dei Pini , 53</p></li><li><p class=\"text-white\"><i class=\"far fa-envelope me-2\"></i> info@studiocolapietro.it</p></li><li><p class=\"text-white\"><i class=\"fas fa-globe me-2\"></i> studiocolapietro.it</p></li><li><p class=\"text-white\"><i class=\"fas fa-mobile-alt me-2\"></i> +39101010101</p></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\"><ul class=\"list-unstyled mb-0\"><li><p class=\"text-white\">Instagram <i class=\"fab fa-instagram ms-3\"></i></p></li><li><p class=\"text-white\">Facebook <i class=\"fab fa-facebook-f ms-3\"></i></p></li><li><p class=\"text-white\">Twitter <i class=\"fab fa-twitter ms-3\"></i></p></li><li><p class=\"text-white\">Linkedin <i class=\"fab fa-linkedin-in ms-3\"></i></p></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\"><ul class=\"list-unstyled\"><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li></ul></div><!--Grid column--></div><!--Grid row--></div><!-- Grid container --><!-- Copyright --><div class=\"text-center p-3\" style=\"background-color:rgba(0, 0, 0, 0.2);\"> © 2020 Copyright: <a class=\"text-white\" href=\"https://mdbootstrap.com/\">MDBootstrap.com</a></div><!-- Copyright --></footer>", 1);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("footer", null, [_hoisted_1]);
 }
 
 /***/ }),
@@ -15316,11 +15319,13 @@ __webpack_require__.r(__webpack_exports__);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
 
+  var _component_Footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer");
+
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar, {
     onComponent: _cache[1] || (_cache[1] = function ($event) {
       return $data.selectedComponent = $event;
     })
-  }), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)((0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDynamicComponent)($data.selectedComponent)))], 64
+  }), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)((0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDynamicComponent)($data.selectedComponent))), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -15413,7 +15418,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-12 mt-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "fs-1 text-primary text-center mt-5 mb-5"
+  "class": "fs-1 text-main text-center mt-5 mb-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I nostri "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("b", null, "Servizi")])])])], -1
 /* HOISTED */
 );
@@ -15469,34 +15474,201 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"img-header\"><div class=\"container slogan col-12\"><h2>Studio Dentistico X<br><br></h2><h1 class=\"slogan-text mt-3\">Il meglio per la salute dei tuoi denti</h1></div></div><hr><div class=\"container col-12 mt-5 middle\"><div class=\"row text-center\"><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"fas fa-mobile-alt me-1 icon\"></i> Chiamaci</p><p>+39101010101</p></div><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"far fa-envelope me-1 icon\"></i> Inviaci un messaggio</p><p>info@studiocolapietro.it</p></div><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"fas fa-map-marker-alt me-1 icon\"></i> Visita lo studio</p><p>Viale Dei Pini , 53</p></div></div></div><hr><div class=\"container col-12 mt-5\"><div class=\"row text-center justify-content-center\"><div class=\"col-4 col-md-4 card-header\"><div class=\"card1 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-3\">Il nostro staff</h4><p class=\"card-text\">Lo studio dentistico Colapietro gode di uno staff altamente qualificato e sempre disponibile per tutte le esigenze dei suoi pazienti. Cliccando sul bottone potrai consultare le referenze di tutti i nostri componenti</p><a href=\"/chisiamo\" class=\"he-li mx-3\">Scopri di più</a></div></div></div><div class=\"col-4 col-md-4 card-header\"><div class=\"card2 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-3\">I nostri servizi</h4><p class=\"card-text\">Lo studio Dentistico Colapietro offre numerosi servizi per la cura e la salute dei tuoi denti,dalle protesi dentali e chirurgia orale all&#39;impiantologia dentale. Clicca sul bottone in basso per visualizzarli tutti</p><a href=\"/servizi\" class=\"he-li mx-3\">Scopri di più</a></div></div></div><div class=\"col-4 col-md-4 card-header\"><div class=\"card3 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-2\">Orari di apertura</h4><ul class=\"card-text\"><li><pre>Martedì          15.30-19.30</pre></li><hr><li><pre>Mercoledì        9.00-13.00</pre></li><hr><li><pre>Venerdì          15.30-19.30</pre></li><hr></ul><a href=\"/\" class=\"he-li mx-3\">Scopri di più</a></div></div></div></div></div>", 5);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"img-header\"><div class=\"container slogan col-12\"><h2>Studio Dentistico X<br><br></h2><h1 class=\"slogan-text mt-3cd ../\"> Il meglio per la salute dei tuoi denti </h1></div></div><hr><div class=\"container col-12 my-5 middle\"><div class=\"row text-center\"><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"fas fa-mobile-alt me-1 icon\"></i> Chiamaci</p><p class=\"mt-3\">+39101010101</p></div><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"far fa-envelope me-1 icon\"></i> Inviaci un messaggio</p><p class=\"mt-3\">info@studiocolapietro.it</p></div><div class=\"col-8 col-md-4 col-sm-4\"><p><i class=\"fas fa-map-marker-alt me-1 icon\"></i> Visita lo studio</p><p class=\"mt-3\">Viale Dei Pini , 53</p></div></div></div><hr><div class=\"container col-12 mt-5\"><div class=\"row text-center justify-content-center\"><div class=\"col-4 col-md-4\"><div class=\"card1 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-3 fs-4 text-light\">Il nostro staff</h4><p class=\"card-text fs-6\"> Lo studio dentistico Colapietro gode di uno staff altamente qualificato e sempre disponibile per tutte le esigenze dei suoi pazienti. Cliccando sul bottone potrai consultare le referenze di tutti i nostri componenti </p><button href=\"\" class=\"btn mt-3 he-li\">Scopri di più</button></div></div></div><div class=\"col-4 col-md-4\"><div class=\"card2 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-3 fs-4 text-light\">I nostri servizi</h4><p class=\"card-text fs-6\"> Lo studio Dentistico Colapietro offre numerosi servizi per la cura e la salute dei tuoi denti,dalle protesi dentali e chirurgia orale all&#39;impiantologia dentale. Clicca sul bottone in basso per visualizzarli tutti </p><button href=\"\" class=\"btn mt-3 he-li\">Scopri di più</button></div></div></div><div class=\"col-4 col-md-4\"><div class=\"card3 card\" style=\"width:18rem;\"><div class=\"card-body\"><h4 class=\"card-title mb-3 fs-4 text-light\">Orari di apertura</h4><ul class=\"card-text fs-6 fs-6 my-3\"><li><pre>Martedì          15.30-19.30</pre></li><hr><li><pre>Mercoledì        9.00-13.00</pre></li><hr><li><pre>Venerdì          15.30-19.30</pre></li><hr></ul></div></div></div></div></div><div class=\"review container-fluid my-5\"><div class=\"row\"><h1 class=\"col-1 mt-5 mx-5 text-light fs-1\"> Cosa dicono i nostri clienti </h1><div class=\"card staff-card col-sm-5 col-md-6 col-lg-2 p-3 m-5\" style=\"width:18rem;\"><img class=\"img-fluid\" src=\"/img/star.png\" alt=\"Card image cap\"><hr><div class=\"card-body\"><h4 class=\"fs-3 my-3\">Pinco Pallino</h4><hr><p class=\"fs-5 my-3\"> &quot;Mi reco da anni nello studio del dottor Colapietro,lo staff ed il dottore hanno una sensibilità e competenza ineccepibile,è come sentirsi a casa.&quot; </p></div></div><div class=\"card staff-card col-sm-5 col-md-6 col-lg-2 p-3 m-5\" style=\"width:18rem;\"><img class=\"img-fluid\" src=\"/img/star.png\" alt=\"Card image cap\"><hr><div class=\"card-body\"><h4 class=\"fs-3 my-3\">Pinco Pallino</h4><hr><p class=\"fs-5 my-3\"> &quot;Mi reco da anni nello studio del dottor Colapietro,lo staff ed il dottore hanno una sensibilità e competenza ineccepibile,è come sentirsi a casa.&quot; </p></div></div><div class=\"card staff-card col-sm-5 col-md-6 col-lg-2 p-3 m-5\" style=\"width:18rem;\"><img class=\"img-fluid\" src=\"/img/star.png\" alt=\"Card image cap\"><hr><div class=\"card-body\"><h4 class=\"fs-3 my-3\">Pinco Pallino</h4><hr><p class=\"fs-5 my-3\"> &quot;Mi reco da anni nello studio del dottor Colapietro,lo staff ed il dottore hanno una sensibilità e competenza ineccepibile,è come sentirsi a casa.&quot; </p></div></div><div class=\"card staff-card col-sm-5 col-md-6 col-lg-2 p-3 m-5\" style=\"width:18rem;\"><img class=\"img-fluid\" src=\"/img/star.png\" alt=\"Card image cap\"><hr><div class=\"card-body\"><h4 class=\"fs-3 my-3\">Pinco Pallino</h4><hr><p class=\"fs-5 my-3\"> &quot;Mi reco da anni nello studio del dottor Colapietro,lo staff ed il dottore hanno una sensibilità e competenza ineccepibile,è come sentirsi a casa.&quot; </p></div></div></div></div>", 6);
 
-var _hoisted_6 = {
-  "class": "col-12 mt-5 container-fluid"
-};
-var _hoisted_7 = {
-  "class": "row"
-};
-var _hoisted_8 = {
-  "class": "review"
-};
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
-  "class": "mt-5 col-1 mx-5 text-light"
-}, " Cosa dicono i nostri clienti ", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "container"
-}, null, -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-12 col-md-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-6 col-md-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "container"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-12 mt-5"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "fs-1 text-main text-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Ti servono "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("b", null, "Informazioni?")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "fs-4 text-main text-center"
+}, " Contattaci tramite questo apposito form ")])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
+  action: "#",
+  method: "POST"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "overflow-hidden sm:rounded-md"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "px-4 py-5 bg-white sm:p-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "grid grid-cols-6 gap-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-3"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "first_name",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Nome"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "first_name",
+  id: "first_name",
+  autocomplete: "given-name",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-3"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "last_name",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Cognome"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "last_name",
+  id: "last_name",
+  autocomplete: "family-name",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "email_address",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Indirizzo Email"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "email_address",
+  id: "email_address",
+  autocomplete: "email",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-3"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "country",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Stato / Regione"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  id: "country",
+  name: "country",
+  autocomplete: "country",
+  "class": "mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Italia"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "United States"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Canada"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", null, "Mexico")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "street_address",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Chiedi qui le info che ti occorrono (preventivi,info sui tempi,info sui servizi)"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "street_address",
+  id: "street_address",
+  autocomplete: "street-address",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-6 lg:col-span-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "city",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Città"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "city",
+  id: "city",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-3 lg:col-span-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "state",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "Stato / Provincia"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "state",
+  id: "state",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-span-6 sm:col-span-3 lg:col-span-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
+  "for": "postal_code",
+  "class": "block text-sm font-medium text-main fs-6"
+}, "ZIP / Codice Postale"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
+  type: "text",
+  name: "postal_code",
+  id: "postal_code",
+  autocomplete: "postal-code",
+  "class": "mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "text-right"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  type: "submit",
+  "class": "inline-flex justify-center py-2 px-4 btn btn-form"
+}, " Invia ")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-6 col-md-6 mt-5"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "text-main mt-5 ms-3 mt-5 fs-1"
+}, "FAQ"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", {
+  "class": "ms-3 my-3 mt-5 fs-3 text-main"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Hai delle "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("b", null, "domande?")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion accordion-flush mt-5",
+  id: "accordionFlushExample"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-item"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+  "class": "accordion-header",
+  id: "flush-headingOne"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  "class": "accordion-button text-main collapsed",
+  type: "button",
+  "data-bs-toggle": "collapse",
+  "data-bs-target": "#flush-collapseOne",
+  "aria-expanded": "false",
+  "aria-controls": "flush-collapseOne"
+}, " Posso pagare a rate il mio impianto? ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  id: "flush-collapseOne",
+  "class": "accordion-collapse collapse",
+  "aria-labelledby": "flush-headingOne",
+  "data-bs-parent": "#accordionFlushExample"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-body"
+}, " Certamente! Lo Studio Colapietro usufruisce di molteplici possibilità per pagare a rate. Il nostro staff sarà lieto di illustrarti tutti i metodi di pagamento. ")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-item"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+  "class": "accordion-header",
+  id: "flush-headingTwo"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  "class": "accordion-button text-main collapsed",
+  type: "button",
+  "data-bs-toggle": "collapse",
+  "data-bs-target": "#flush-collapseTwo",
+  "aria-expanded": "false",
+  "aria-controls": "flush-collapseTwo"
+}, " Gli interventi sono garantiti? ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  id: "flush-collapseTwo",
+  "class": "accordion-collapse collapse",
+  "aria-labelledby": "flush-headingTwo",
+  "data-bs-parent": "#accordionFlushExample"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-body"
+}, " Assolutamente si! Sappiamo quanto sia importante vivere serenamente la propria vita ed è per questo che abbiamo deciso di estendere forme di garanzie uniche sul mercato dentale, questo è diventanto uno dei nostri punti di forza! ")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-item"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+  "class": "accordion-header",
+  id: "flush-headingThree"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  "class": "accordion-button text-main collapsed",
+  type: "button",
+  "data-bs-toggle": "collapse",
+  "data-bs-target": "#flush-collapseThree",
+  "aria-expanded": "false",
+  "aria-controls": "flush-collapseThree"
+}, " Posso pianificare i miei appuntamenti? ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  id: "flush-collapseThree",
+  "class": "accordion-collapse collapse",
+  "aria-labelledby": "flush-headingThree",
+  "data-bs-parent": "#accordionFlushExample"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "accordion-body"
+}, " Certo! Non solo potrai pianificiare tutto il tuo piano di cura, potrai anche scegliere le date che ti permettono di gestire in totale tranquillità tutte le fasi della terapia dentale. Siamo aperti anche di sabato e nei pre festivi ")])])])])])])], -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(--_ctx.card - _ctx.carousel--), 1
-  /* TEXT */
-  )])])]), _hoisted_10], 64
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" mezzo "), _hoisted_7], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -15600,6 +15772,56 @@ if (false) {}
 _Contatti_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/components/Contatti.vue"
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Contatti_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
+/***/ "./resources/js/components/Detail.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Detail.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Detail.vue?vue&type=template&id=3cbb35fc */ "./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc");
+/* harmony import */ var _Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Detail.vue?vue&type=script&lang=js */ "./resources/js/components/Detail.vue?vue&type=script&lang=js");
+
+
+
+_Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/components/Detail.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Footer.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374 */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374");
+/* harmony import */ var _Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.vue?vue&type=script&lang=js */ "./resources/js/components/Footer.vue?vue&type=script&lang=js");
+
+
+
+_Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/components/Footer.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
 
 /***/ }),
 
@@ -15763,6 +15985,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Detail.vue?vue&type=script&lang=js":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/Detail.vue?vue&type=script&lang=js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Detail.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue?vue&type=script&lang=js":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=script&lang=js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/components/Home.vue?vue&type=script&lang=js":
 /*!******************************************************************!*\
   !*** ./resources/js/components/Home.vue?vue&type=script&lang=js ***!
@@ -15879,6 +16131,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contatti_vue_vue_type_template_id_2bb9cef6__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Contatti_vue_vue_type_template_id_2bb9cef6__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Contatti.vue?vue&type=template&id=2bb9cef6 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Contatti.vue?vue&type=template&id=2bb9cef6");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Detail.vue?vue&type=template&id=3cbb35fc */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=template&id=61a7c374 ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer.vue?vue&type=template&id=61a7c374 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374");
 
 
 /***/ }),
@@ -16222,6 +16504,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Chisiamo_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Chisiamo.vue */ "./resources/js/components/Chisiamo.vue");
 /* harmony import */ var _components_Service_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Service.vue */ "./resources/js/components/Service.vue");
 /* harmony import */ var _components_Contatti_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Contatti.vue */ "./resources/js/components/Contatti.vue");
+/* harmony import */ var _components_Footer_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Footer.vue */ "./resources/js/components/Footer.vue");
+/* harmony import */ var _components_Detail_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Detail.vue */ "./resources/js/components/Detail.vue");
+
+
 
 
 
@@ -16246,7 +16532,14 @@ app.component('Navbar', _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_3__.defa
 app.component('Chisiamo', _components_Chisiamo_vue__WEBPACK_IMPORTED_MODULE_4__.default);
 app.component('Service', _components_Service_vue__WEBPACK_IMPORTED_MODULE_5__.default);
 app.component('Contatti', _components_Contatti_vue__WEBPACK_IMPORTED_MODULE_6__.default);
+app.component('Footer', _components_Footer_vue__WEBPACK_IMPORTED_MODULE_7__.default);
+app.component('Detail', _components_Detail_vue__WEBPACK_IMPORTED_MODULE_8__.default);
 app.mount('#app');
+var contactForm = document.querySelector('.contatti-form');
+contactForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  console.log('submit clicked');
+});
 })();
 
 /******/ })()
