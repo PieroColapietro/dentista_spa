@@ -17,9 +17,8 @@
       <div class="mt-5 md:mt-0 md:col-span-2">
         <form
           id="contatti-form"
-          @submit="checkForm"
-          action=""
-          method=""
+          action="https://formsubmit.co/piero_le_95@hotmail.it" 
+          method="POST" 
           class="contatti-form"
         >
           <div class="overflow-hidden sm:rounded-md">
@@ -72,17 +71,16 @@
 
                 <div class="col-span-6">
                   <label
-                    for="street"
+                    for="message"
                     class="block text-sm font-medium text-main fs-6"
                     >Chiedi qui le info che ti occorrono (preventivi,info sui tempi,info sui servizi)</label
                   >
-                  <input
+                  <textarea
                     type="text"
-                    name="street"
-                    id="street"
-                    autocomplete="street-address"
-                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                  />
+                    name="message"
+                    id="message"
+                    autocomplete="message"
+                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"/>
                 </div>
 
                 <div class="col-span-6 sm:col-span-6 lg:col-span-2">
@@ -134,7 +132,6 @@
                 type="submit"
                 class="submit inline-flex justify-center py-2 px-4 btn btn-form"
                 value="Submit"
-                @click="submit"
               >
                 Invia
               </button>
@@ -153,7 +150,10 @@
 </template>
 
 <script>
-export default {};
+
+
+
+
 </script>
 
 <style>

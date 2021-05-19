@@ -35,10 +35,3 @@ app.component('Detail' , Detail);
 
 
 app.mount('#app');
-
-const contactForm = document.querySelector('.contatti-form');
-
-contactForm.addEventListener('submit' , (e)=>{
-    e.preventDefault();
-    console.log('submit clicked')
-} )
